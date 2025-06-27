@@ -33,12 +33,12 @@ Traditional facial recognition systems rely on labeled datasets and fixed class 
 ├── README.md                 # Project documentation
 ````
 
-> ⚠️ **Note**: The `anchor/`, `positive/`, and `negative/` folders need to be manually created and populated by you.
+>  **Note**: The `anchor/`, `positive/`, and `negative/` folders need to be manually created and populated by you.
 > These are essential for training and testing the model.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -64,7 +64,7 @@ jupyter notebook siamese_network.ipynb
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 | **Metric**                   | **Result** |
 | ---------------------------- | ---------- |
@@ -75,17 +75,17 @@ jupyter notebook siamese_network.ipynb
 
 ---
 
-## 💡 Features
+##  Features
 
-* 📎 **Siamese Architecture**: Twin CNNs with shared weights for embedding generation.
-* 📏 **L1 Distance Scoring**: Custom `L1Dist` layer computes similarity between embeddings.
-* 🔐 **Adversarial Robustness**: Tested under noise and perturbation attacks.
-* 🌩️ **Environmental Variance**: Handles rotation, contrast, and lighting changes.
-* 🧠 **One-Shot Learning**: Works with just one sample per class—no retraining required.
+*  **Siamese Architecture**: Twin CNNs with shared weights for embedding generation.
+*  **L1 Distance Scoring**: Custom `L1Dist` layer computes similarity between embeddings.
+*  **Adversarial Robustness**: Tested under noise and perturbation attacks.
+*  **Environmental Variance**: Handles rotation, contrast, and lighting changes.
+*  **One-Shot Learning**: Works with just one sample per class—no retraining required.
 
 ---
 
-## 🛠 Built With
+##  Built With
 
 * Python 3.10
 * TensorFlow & Keras
@@ -95,7 +95,7 @@ jupyter notebook siamese_network.ipynb
 
 ---
 
-## 📚 References
+##  References
 
 * Koch et al. (2015). *Siamese Neural Networks for One-shot Image Recognition*.
 * Abbas et al. (2023). *ConvMixer + AdaBoost for Masked Face Recognition*.
