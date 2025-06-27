@@ -23,7 +23,7 @@ The system includes:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```bash
 .
@@ -70,13 +70,7 @@ git clone https://github.com/yourusername/one-shot-face-recognition.git
 cd one-shot-face-recognition
 ```
 
-### 2. Install Requirements
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Prepare Data
+### 2. Prepare Data
 
 * Create folders: `anchor/`, `positive/`, `negative/`
 * Add face images accordingly:
@@ -85,13 +79,13 @@ pip install -r requirements.txt
   * `positive/`: Same person as anchor
   * `negative/`: Different individuals
 
-### 4. Run the Notebook (optional)
+### 3. Run the Notebook (optional)
 
 ```bash
 jupyter notebook siamese_network.ipynb
 ```
 
-### 5. Run the Kivy App
+### 4. Run the Kivy App
 
 ```bash
 python faceid.py
